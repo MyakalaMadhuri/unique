@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.infy.ekart.dto.ProductDTO;
 import com.infy.ekart.exception.EKartException;
 import com.infy.ekart.service.CustomerProductService;
-
+@RestController
 @RequestMapping(value = "/product-api")
 public class ProductAPI {
 
